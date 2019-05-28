@@ -1,0 +1,3 @@
+# Ignore where TOKEN is stored
+
+.env
