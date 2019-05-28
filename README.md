@@ -42,5 +42,5 @@ You can obtain an optional token to make API calls [here](https://dev.socrata.co
 * **Web App**:
     * To expand this to a Ruby on Rails MVC based web app, I would:
         * Discard the ```main.rb``` file
-        * Create a ```food_truck_controller.rb``` and correlating html view file file which would have an index method calling my SodaApiWrapper class and get_open_trucks(offset) method to display a list of trucks.
+        * Create a ```food_truck_controller.rb``` and correlating html view file which would have an index method calling my SodaApiWrapper class and get_open_trucks(offset) method to display a list of trucks.
         * The pagination would be implemented in the controller
