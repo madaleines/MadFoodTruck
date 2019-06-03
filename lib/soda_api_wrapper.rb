@@ -46,7 +46,7 @@ class SodaApiWrapper
 
   private
   
-  class NoTrucksError < StandardError; end
+  class SodaApiError < StandardError; end
 
   def raise_on_error(response)
     if response.code != "200"
